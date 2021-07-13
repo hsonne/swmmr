@@ -4,11 +4,13 @@ on:
       - master
       - main
       - dev
+      - mydev
   pull_request:
     branches:
       - master
       - main
       - dev
+      - mydev
 
 name: R-CMD-check
 
