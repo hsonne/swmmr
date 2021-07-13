@@ -3,10 +3,12 @@ on:
     branches:
       - master
       - main
+      - mydev
   pull_request:
     branches:
       - master
       - main
+      - mydev
 
 name: test-coverage
 
